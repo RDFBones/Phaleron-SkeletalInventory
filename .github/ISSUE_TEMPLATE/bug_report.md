@@ -2,11 +2,14 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: ''
+labels: [bug]
 assignees: 
   - cuboideum
 
 ---
+
+**In what module does the bug occur?**
+What module (e.g. 'Skeletal Inventory', 'Palaeopathology') are you working with? Please indicate what section (e.g. tab, skeletal region) is affected. You can also provide the URL of the data entry page.
  
 **Describe the bug**
 A clear and concise description of what the bug is.
