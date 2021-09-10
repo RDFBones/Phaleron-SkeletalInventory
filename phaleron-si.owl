@@ -642,6 +642,12 @@
 
 
 
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma12527 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma12527"/>
+
+
+
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13303 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13303"/>
@@ -21394,6 +21400,23 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma12527"/> <!-- 'Entire coccygeal vertebra' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Section of the skeletal inventory for adult skeletons that records information on the vertebral column.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
@@ -28345,6 +28368,12 @@
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfUlna -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfUlna"/>
+
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
 
 
 
