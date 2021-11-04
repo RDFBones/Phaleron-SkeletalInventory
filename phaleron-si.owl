@@ -4682,7 +4682,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4699,7 +4699,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4716,7 +4716,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4733,7 +4733,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4750,7 +4750,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4767,7 +4767,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4784,7 +4784,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4801,7 +4801,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4818,7 +4818,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4835,7 +4835,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4852,7 +4852,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4869,7 +4869,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4886,7 +4886,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4903,7 +4903,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4920,7 +4920,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4937,7 +4937,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4954,7 +4954,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4971,7 +4971,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4988,7 +4988,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5005,7 +5005,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5022,7 +5022,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5039,7 +5039,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5056,7 +5056,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5073,7 +5073,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5090,7 +5090,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5107,7 +5107,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5124,7 +5124,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5141,7 +5141,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5158,7 +5158,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5175,7 +5175,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5192,7 +5192,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5209,7 +5209,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5226,7 +5226,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -9711,7 +9711,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -9728,7 +9728,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -9745,7 +9745,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -9762,7 +9762,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -9779,7 +9779,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -9796,7 +9796,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedFragments"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -20777,12 +20777,6 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Number of bone fragments</rdfs:label>
     </owl:Class>
-
-
-
-    <!-- http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfUnclassifiedBoneFragments"/>
 
 
 
