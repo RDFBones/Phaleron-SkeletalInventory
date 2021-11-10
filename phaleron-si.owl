@@ -16616,7 +16616,7 @@
     <!-- http://w3id.org/rdfbones/ext/phaleron-si/BodyOfClavicle -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfClavicle">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfClavicle"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfClavicle"/>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the body of a clavicle.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same bone as the FMA class &apos;Diaphysis of clavicle&apos; (fma:23294).</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
@@ -20731,7 +20731,7 @@
     <!-- http://w3id.org/rdfbones/ext/phaleron-si/MedialArticulationOfClavicle -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/MedialArticulationOfClavicle">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfClavicle"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfClavicle"/>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the medial articulation of a clavicle.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
@@ -21889,7 +21889,7 @@
     <!-- http://w3id.org/rdfbones/ext/phaleron-si/ScapularArticulationOfClavicle -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/ScapularArticulationOfClavicle">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfClavicle"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfClavicle"/>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the scapular articulation of a clavicle.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
@@ -21913,6 +21913,24 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of cervical rib</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfClavicle -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfClavicle">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13321"/> <!-- 'Clavicle' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a clavicle.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Segment of clavicle</rdfs:label>
     </owl:Class>
 
 
@@ -23789,12 +23807,6 @@
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfCervicalVertebra -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SegmentOfCervicalVertebra"/>
-
-
-
-    <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfClavicle -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SegmentOfClavicle"/>
 
 
 
