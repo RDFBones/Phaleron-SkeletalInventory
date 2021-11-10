@@ -298,12 +298,6 @@
 
 
 
-    <!-- http://purl.org/sig/ont/fma/fma16950 -->
-
-    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma16950"/>
-
-
-
     <!-- http://purl.org/sig/ont/fma/fma23294 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23294"/>
