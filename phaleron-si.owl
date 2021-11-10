@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://w3id.org/rdfbones/ext/phaleron-si/phaleron-si.owl#"
      xml:base="http://w3id.org/rdfbones/ext/phaleron-si/phaleron-si.owl"
+     xmlns:fma="http://purl.org/sig/ont/fma/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -71,6 +72,36 @@
     <!-- http://purl.org/dc/terms/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/FMAID -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/FMAID"/>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/definition -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/definition"/>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/non-English_equivalent -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/non-English_equivalent"/>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/preferred_name -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/preferred_name"/>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/synonym -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/synonym"/>
 
 
 
@@ -249,6 +280,21 @@
     <!-- http://purl.org/sig/ont/fma/fma13394 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13394"/>
+
+
+
+    <!-- http://purl.org/sig/ont/fma/fma16202 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma16202">
+        <rdfs:subClassOf rdf:resource="http://purl.org/sig/ont/fma/fma67135"/>
+        <fma:FMAID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16202</fma:FMAID>
+        <fma:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone complex which has as its direct parts five sacral vertebrae.</fma:definition>
+        <fma:non-English_equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Os sacrum [vertebrae sacrales I - V]</fma:non-English_equivalent>
+        <fma:preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sacrum</fma:preferred_name>
+        <fma:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sacral bone</fma:synonym>
+        <fma:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sacrum [sacral vertebrae I - V]</fma:synonym>
+        <rdfs:label xml:lang="en">Sacrum</rdfs:label>
+    </owl:Class>
 
 
 
@@ -22643,6 +22689,16 @@
     <!-- http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacrum -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacrum">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16202"/> <!-- 'Sacrum' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a sacrum.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label>Segment of sacrum</rdfs:label>
     </owl:Class>
 
