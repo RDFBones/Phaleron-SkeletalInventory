@@ -18124,6 +18124,120 @@
         <obo:IAO_0000119 xml:lang="en">Phaleron inventory template, file &apos;Inventory Template Updated 4.8.21.xlsx&apos;.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Body of Vertebra</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfS1 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfS1">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFirstSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the centrum of a first sacral vertebra (also referred to as &apos;S1&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Centrum of S1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfS2 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfS2">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSecondSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the centrum of a second sacral vertebra (also referred to as &apos;S2&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Centrum of S2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfS3 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfS3">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfThirdSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the centrum of a third sacral vertebra (also referred to as &apos;S3&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Centrum of S3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfS4 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfS4">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFourthSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the centrum of a fourth sacral vertebra (also referred to as &apos;S4&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Centrum of S4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfS5 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfS5">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFifthSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the centrum of a fifth sacral vertebra (also referred to as &apos;S5&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Centrum of S5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/CentrumOfSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the centrum of a sacral vertebra .</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Centrum of sacral vertebra</rdfs:label>
+    </owl:Class>
 
 
 
@@ -20284,6 +20398,120 @@
         <obo:IAO_0000119 xml:lang="en">Phaleron inventory template, file &apos;Inventory Template Updated 4.8.21.xlsx&apos;.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Left half of neural arch of lumbar vertebra</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfS1 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfS1">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFirstSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a first sacral vertebra (also referred to as &apos;S1&apos;) which is situated left of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Left half of neural arch of S1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfS2 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfS2">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSecondSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a second sacral vertebra (also referred to as &apos;S2&apos;) which is situated left of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Left half of neural arch of S2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfS3 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfS3">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfThirdSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a third sacral vertebra (also referred to as &apos;S3&apos;) which is situated left of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Left half of neural arch of S3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfS4 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfS4">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFourthSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a fourth sacral vertebra (also referred to as &apos;S4&apos;) which is situated left of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Left half of neural arch of S4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfS5 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfS5">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFifthSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a fifth sacral vertebra (also referred to as &apos;S5&apos;) which is situated left of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Left half of neural arch of S5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/LeftHalfOfNeuralArchOfSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a sacral vertebra which is situated left of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Left half of neural arch of sacral vertebra</rdfs:label>
+    </owl:Class>
 
 
 
@@ -20606,6 +20834,82 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">Phaleron inventory template, file &apos;Inventory Template Updated 4.8.21.xlsx&apos;.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Left horns of hyoid bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/LeftLateralElementOfS1 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/LeftLateralElementOfS1">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFirstSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the left lateral element of a first sacral vertebra (also referred to as &apos;S1&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Left lateral element of S1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/LeftLateralElementOfS2 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/LeftLateralElementOfS2">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSecondSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the left lateral element of a second sacral vertebra (also referred to as &apos;S2&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Left lateral element of S2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/LeftLateralElementOfS3 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/LeftLateralElementOfS3">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfThirdSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the left lateral element of a third sacral vertebra (also referred to as &apos;S3&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Left lateral element of S3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/LeftLateralElementOfSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/LeftLateralElementOfSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the left lateral element of a sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Left lateral element of sacral vertebra</rdfs:label>
     </owl:Class>
 
 
@@ -21466,6 +21770,120 @@
         <obo:IAO_0000119 xml:lang="en">Phaleron inventory template, file &apos;Inventory Template Updated 4.8.21.xlsx&apos;.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Right half of neural arch of lumbar vertebra</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfS1 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfS1">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFirstSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a first sacral vertebra (also referred to as &apos;S1&apos;) which is situated right of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Right half of neural arch of S1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfS2 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfS2">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSecondSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a second sacral vertebra (also referred to as &apos;S2&apos;) which is situated right of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Right half of neural arch of S2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfS3 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfS3">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfThirdSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a third sacral vertebra (also referred to as &apos;S3&apos;) which is situated right of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Right half of neural arch of S3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfS4 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfS4">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFourthSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a fourth sacral vertebra (also referred to as &apos;S4&apos;) which is situated right of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Right half of neural arch of S4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfS5 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfS5">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFifthSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a fifth sacral vertebra (also referred to as &apos;S5&apos;) which is situated right of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Right half of neural arch of S5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/RightHalfOfNeuralArchOfSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of the neural arch of a sacral vertebra which is situated right of the mid-sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Right half of neural arch of sacral vertebra</rdfs:label>
+    </owl:Class>
 
 
 
@@ -21773,6 +22191,82 @@
         <obo:IAO_0000119 xml:lang="en">Phaleron inventory template, file &apos;Inventory Template Updated 4.8.21.xlsx&apos;.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Right horns of hyoid bone</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/RightLateralElementOfS1 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/RightLateralElementOfS1">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFirstSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the right lateral element of a first sacral vertebra (also referred to as &apos;S1&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Right lateral element of S1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/RightLateralElementOfS2 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/RightLateralElementOfS2">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSecondSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the right lateral element of a second sacral vertebra (also referred to as &apos;S2&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Right lateral element of S2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/RightLateralElementOfS3 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/RightLateralElementOfS3">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfThirdSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the right lateral element of a third sacral vertebra (also referred to as &apos;S3&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Right lateral element of S3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/RightLateralElementOfSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/RightLateralElementOfSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the right lateral element of a sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Right lateral element of sacral vertebra</rdfs:label>
+    </owl:Class>
 
 
 
@@ -22026,6 +22520,24 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of fifth rib</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFifthSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFifthSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a fifth sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Segment of fifth sacral vertebra</rdfs:label>
+    </owl:Class>
 
 
 
@@ -22044,6 +22556,24 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of first rib</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFirstSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFirstSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a first sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Segment of first sacral vertebra</rdfs:label>
+    </owl:Class>
 
 
 
@@ -22061,6 +22591,24 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of fourth rib</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFourthSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfFourthSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a fourth sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Segment of fourth sacral vertebra</rdfs:label>
     </owl:Class>
 
 
@@ -22677,6 +23225,18 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of right twelfth rib</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfVertebra"/>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Segment of sacral vertebra</rdfs:label>
+    </owl:Class>
 
 
 
@@ -22712,6 +23272,24 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of second rib</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSecondSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSecondSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a second sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Segment of second sacral vertebra</rdfs:label>
     </owl:Class>
 
 
@@ -22877,6 +23455,24 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of third rib</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfThirdSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfThirdSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/SegmentOfSacralVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a third sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Segment of third sacral vertebra</rdfs:label>
+    </owl:Class>
 
 
 
@@ -22993,6 +23589,25 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">Phaleron inventory template, file &apos;Inventory Template Updated 4.8.21.xlsx&apos;.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Squamous part of temporal bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-si/Sternebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/Sternebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfSternum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma7485"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region describing some sternebra.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaleron Juvenile Inventory Template, version 17 May 2022.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Sternebra</rdfs:label>
     </owl:Class>
 
 
