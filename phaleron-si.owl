@@ -20972,11 +20972,11 @@
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/OverallAssessmentValueSpecification"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A measurement datum assessing the overall preservation state of an entire skeleton.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum assessing the overall state of surface preservation of an entire skeleton.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">Phaleron inventory template, file &apos;Inventory Template Updated 4.8.21.xlsx&apos;.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Overall assessment of skeleton</rdfs:label>
+        <rdfs:label xml:lang="en">Overall assessment of surface preservation</rdfs:label>
     </owl:Class>
 
 
