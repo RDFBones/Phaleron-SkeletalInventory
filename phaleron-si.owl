@@ -20804,7 +20804,7 @@
     <!-- http://w3id.org/rdfbones/ext/phaleron-si/NumberOfBoneFragments -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/NumberOfBoneFragments">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/> <!-- 'Measurement datum' -->
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
