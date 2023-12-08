@@ -18812,9 +18812,9 @@
     <!-- http://w3id.org/rdfbones/ext/phaleron-si/EntireSetOfAllLeftRibs -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireSetOfAllLeftRibs">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireSetOfAllRibs"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireSetOfBoneOrgans"/>
         <owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/EntireSetOfAllRightRibs"/>
-        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a left rib.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing all left ribs in a skeleton.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">Phaleron inventory template, file &apos;Inventory Template Updated 4.8.21.xlsx&apos;.</obo:IAO_0000119>
@@ -18826,8 +18826,8 @@
     <!-- http://w3id.org/rdfbones/ext/phaleron-si/EntireSetOfAllRightRibs -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireSetOfAllRightRibs">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireSetOfAllRibs"/>
-        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a right rib.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireSetOfBoneOrgans"/>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing all right ribs in a skeleton.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">Phaleron inventory template, file &apos;Inventory Template Updated 4.8.21.xlsx&apos;.</obo:IAO_0000119>
